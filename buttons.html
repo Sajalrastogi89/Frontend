@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buttons</title>
   <style>
-
     .subscribe-button {
       background-color: rgb(204, 0, 0);
       color: white;
       border: none;
-      height: 36px;
-      width: 105px;
       border-radius: 2px;
       cursor: pointer;
       margin-right: 8px;
       transition: opacity 0.15s;
+      padding-top: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      vertical-align: top;
     }
 
     .subscribe-button:hover {
@@ -25,7 +28,7 @@
     .subscribe-button:active {
       opacity: 0.2;
     }
-    
+
     .join-button {
       background-color: rgb(255, 255, 255);
       border-color: rgb(46, 158, 233);
@@ -33,11 +36,14 @@
       border-width: 1px;
       border-radius: 2px;
       color: rgb(2, 138, 218);
-      height: 36px;
-      width: 62px;
       cursor: pointer;
       margin-right: 8px;
       transition: background-color 0.2s, color 0.2s;
+      padding-top: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 9px;
+      vertical-align: top;
     }
 
     .join-button:hover {
@@ -53,21 +59,24 @@
       background-color: rgb(2, 158, 255);
       color: white;
       border: none;
-      height: 36px;
-      width: 74px;
-      border-radius: 18px;
+      padding-top: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      border-radius: 24px;
       font-weight: bold;
       font-size: 15px;
       cursor: pointer;
       transition: box-shadow 0.2s;
-    }
-    
-    .tweet-button:hover {
-      box-shadow: 1px 1px 30px rgba(0,0,0,0.14);
+      vertical-align: top;
     }
 
+    .tweet-button:hover {
+      box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.14);
+    }
   </style>
 </head>
+
 <body>
 
   <button class="subscribe-button">
@@ -83,4 +92,5 @@
   </button>
 
 </body>
+
 </html>
